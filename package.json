@@ -1,13 +1,16 @@
 {
+  "homepage": "https://RamyaUdhayakumar.github.io/react-restaurant-web",
   "name": "react-restaurant-web",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "module", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "npm install"
   },
   "dependencies": {
     "react": "^18.3.1",
